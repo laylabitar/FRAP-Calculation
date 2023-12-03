@@ -5,7 +5,8 @@ FRAP investigates cell kinetics using photobleaching. The software streamlines d
 **Background on FRAP**
 FRAP stands for fluorescence recovery after photobleaching. As the name indicates, it is a method where a region of interest within the cell is exposed to high intensity laser for a short amount of time. The laser exposure is then removed to allow the region to recover. This is a widely used method to study the kinetics and diffusion within the cell. Typically, the cell membrane lipids are marked with a fluorescence tag, where the intensity of the fluorescence in the pre-bleach, bleach, and post bleach stages are captured by the confocal microscope and collected. As shown in the figure below, lipids and molecules move around within the cell which results in recovery of the area that has been photobleached.
 
- ![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/382fbcab-5200-4e14-bbfc-892ecb65e29d)
+![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/cf766b9b-301d-4465-8e07-1adee859b760)
+
 
 
     
