@@ -5,10 +5,9 @@ FRAP investigates cell kinetics using photobleaching. The software streamlines d
 **Background on FRAP**
 FRAP stands for fluorescence recovery after photobleaching. As the name indicates, it is a method where a region of interest within the cell is exposed to high intensity laser for a short amount of time. The laser exposure is then removed to allow the region to recover. This is a widely used method to study the kinetics and diffusion within the cell. Typically, the cell membrane lipids are marked with a fluorescence tag, where the intensity of the fluorescence in the pre-bleach, bleach, and post bleach stages are captured by the confocal microscope and collected. As shown in the figure below, lipids and molecules move around within the cell which results in recovery of the area that has been photobleached.
 
- 			![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/d9d6935d-a845-40e8-ac33-7956e65e97e3)
+ ![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/382fbcab-5200-4e14-bbfc-892ecb65e29d)
 
-				
-    
+
     
    								 Figure 1. FRAP Process (carmen, 2012)
 
@@ -34,7 +33,7 @@ _Functional requirements_
 
 **System Diagram**
 
-			![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/94fa6995-d587-4f87-90ec-c88dfda3b4c9)
+![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/94fa6995-d587-4f87-90ec-c88dfda3b4c9)
 
  
 								Figure 2. Flowchart of the Program
@@ -43,11 +42,11 @@ _Functional requirements_
 **Algorithm**		
 The algorithm is created using equations adapted from the paper “Fluorescence recovery after photobleaching reveals regulation and distribution of connexin36 gap junction coupling within mouse islets of Langerhans” 1
 
-		![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/509bcb0a-581d-4f23-ad0d-d18ff86dbf8f)
+![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/509bcb0a-581d-4f23-ad0d-d18ff86dbf8f)
 			
 				Equation 1: % Recovery Equation (Farnsworth, Nikki L et al,2014)
 			
-		![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/4ef59205-48be-4add-979a-8a7f1dc9f6ac)
+![image](https://github.com/laylabitar/FRAP-Calculation/assets/79585453/4ef59205-48be-4add-979a-8a7f1dc9f6ac)
 			
 			 
 				Equation 2: Recovery Rate Equation (Farnsworth, Nikki L et al,2014)
